@@ -68,3 +68,156 @@
   background-color: #f1f1f1;
   border-radius: 0.8rem 0.8rem;
 }
+
+
+.nav-bar {
+  height: 120px;
+  background-color: rgb(39, 35, 35);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid red;
+  padding-right: 4.5%;
+}
+
+
+#simbalogo {
+  height: 85px;
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: #f1f1f1; 
+  z-index: 99;
+}
+
+.nav {
+  display: none;
+}
+
+#home {
+  background-color: rgb(39, 35, 35);
+  height: 120px;
+  width: 95px;
+  transform: skewX(-15deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 80px;  
+ 
+}
+
+#home:hover {
+  background-color: red;
+}
+
+#vehicles {
+  background-color: rgb(39, 35, 35);
+  height: 120px;
+  width: 120px;
+  transform: skewX(-15deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 120px;  
+ 
+}
+
+#vehicles:hover {
+  background-color: red;
+}
+
+#parts {
+  background-color: rgb(39, 35, 35);
+  height: 120px;
+  width: 100px;
+  transform: skewX(-15deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 80px;  
+ 
+}
+
+#parts:hover {
+  background-color: red;
+}
+
+#services {
+  background-color: rgb(39, 35, 35);
+  height: 120px;
+  width: 100px;
+  transform: skewX(-15deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 93px;  
+ 
+}
+
+#services:hover {
+  background-color: red;
+}
+
+#financing {
+  background-color: rgb(39, 35, 35);
+  height: 120px;
+  width: 105px;
+  transform: skewX(-15deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 100px;  
+}
+ 
+#financing:hover {
+  background-color: red;
+}
+
+#blog {
+  background-color: rgb(39, 35, 35);
+  height: 120px;
+  width: 90px;
+  transform: skewX(-15deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 75px;  
+ 
+}
+
+#blog:hover {
+  background-color: red;
+}
+
+
+.container2 {
+  height: 350vh;
+  padding: 5%;
+  background:linear-gradient(to bottom, black, rgb(29, 28, 28))
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+
+}
+
+.upper-form {
+  display: flex;
+
+}
+
+.lower-form {
+  display: flex;
+  
+
+}
