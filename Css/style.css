@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -37,6 +37,8 @@
   margin-top: 5vh;
   color: #f1f1f1;
   text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 54px;
 }
 
 .container-base {
@@ -62,7 +64,7 @@
 
 .pill {
   height: 0.8rem;
-  width: 4rem;
+  width: 3rem;
   background-color: #f1f1f1;
   border-radius: 0.8rem 0.8rem;
 }
