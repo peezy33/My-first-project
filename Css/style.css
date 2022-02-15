@@ -1,113 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
 
-.header {
-  position: relative;
-  display: inline-block;
-  padding: 1em;  
-  width: 100%; 
-  
-}
-
-.searchbar {
-  size: 100;    
-    font-size: 17px;
-    position: absolute;
-    text-align: center;
-    top: 68px;
-    width: 100%;
-    
-}
-
-
-
-.carlogo {
-  float: right;
-  top: 25px;
-  margin-right: 20px;
-}
-
-.primary-nav {
-  background-color: crimson;
-  display: inline-block;
-  color: white;
-  list-style-type: none; 
-  position: absolute; 
-  display: flex;  
-  margin: 10px;
-}
-
-.dropdown {
-  background-color: crimson
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: aqua;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-
-
-
-.display-photo {
-  height: 100%;
+.container {
+  height: 110vh;
   width: 100%;
-  background-position: center;
+  background-image: url(/Assets/Images/Hero\ Image.jpg);
   background-size: cover;
-
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  justify-content: space-between;
 }
 
-
-
-.advert-brakepad {
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-
+#humbg {
+  width: 4rem;
+  align-self: flex-end;
 }
 
-.orange-car {
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
 }
 
+.logos h1 {
+  margin-top: 5vh;
+  color: #f1f1f1;
+  text-transform: uppercase;
+}
 
+.container-base {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #f1f1f1;
+}
 
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(128, 9, 9);
-  color: white;
-  text-align: center;
+.base2 {
+  display: flex;
+  margin-top: 2vh;
+}
+
+.circle1,
+.circle2 {
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.pill {
+  height: 0.8rem;
+  width: 4rem;
+  background-color: #f1f1f1;
+  border-radius: 0.8rem 0.8rem;
 }
