@@ -10,7 +10,7 @@
 .container {
   height: 110vh;
   width: 100%;
-  background-image: url(/Assets/Images/Hero\ Image.jpg);
+  background-image: url("../Assets/Images/Hero\ Image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
