@@ -497,6 +497,7 @@ select {
 }
 
 .advert {
+  z-index: 999;
   height: 46vh;
   position: absolute;
   width: 100%;
@@ -510,4 +511,91 @@ select {
   bottom: 5.4vh;
   height: 55vh;
   width: 100vw;
+}
+
+.footer {
+  height: 70vh;
+  width: 100vw;
+  background-color: rgb(17, 16, 19);
+  margin-top: 45vh;
+  padding: 0 5%;
+  display: flex;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.part1 {
+  margin-top: 5vh;
+}
+
+.part1 p {
+  color: #f1f1f1;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.part2 {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 13vh;
+  margin-left: 6vw;
+}
+
+#footerDeco {
+  position: absolute;
+  left: 52vw;
+  height: 70vh;
+  bottom: 1vh;
+}
+
+.textfooter span,
+.textfooter2 span,
+.textfooter3 span {
+  color: #f1f1f1;
+}
+
+.textfooter h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  margin-top: 2vh;
+}
+
+.textfooter p {
+  color: #f1f1f1;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.textfooter2 ul,
+.textfooter3 ul {
+  list-style: none;
+}
+
+.textfooter2 ul li a,
+.textfooter3 ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.textfooter2 ul li,
+.textfooter3 ul li {
+  margin-top: 2.5vh;
+}
+
+.lineVert {
+  height: 45vh;
+  width: 2px;
+  background-color: #f1f1f1;
+  margin-right: 4vw;
+}
+
+.contactus,
+.customerServ,
+.paymentMeth {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-right: 1vw;
 }
