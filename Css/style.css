@@ -497,7 +497,7 @@ select {
 }
 
 .advert {
-  height: 45vh;
+  height: 46vh;
   position: absolute;
   width: 100%;
   left: 0;
@@ -508,4 +508,6 @@ select {
 #advert {
   position: relative;
   bottom: 5.4vh;
+  height: 55vh;
+  width: 100vw;
 }
