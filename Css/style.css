@@ -7,6 +7,10 @@
   font-family: "poppins", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .container {
   height: 110vh;
   width: 100%;
@@ -189,7 +193,8 @@ a {
 }
 
 .container2 {
-  height: 350vh;
+  position: relative;
+  height: max-content;
   padding: 5%;
   background: linear-gradient(to bottom, black, rgb(29, 28, 28));
 }
@@ -377,7 +382,7 @@ select {
 }
 
 .large-container1 {
-  height: 250vh;
+  height: max-content;
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
@@ -489,4 +494,18 @@ select {
   background-color: black;
   color: #f1f1f1;
   margin-top: 5vh;
+}
+
+.advert {
+  height: 45vh;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 327vh;
+  background: linear-gradient(to right, rgb(211, 14, 14), black);
+}
+
+#advert {
+  position: relative;
+  bottom: 5.4vh;
 }
