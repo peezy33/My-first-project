@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mitsubishi </title>
+    <title>Mitsubishi</title>
     <link rel="stylesheet" href="Css/style.css" />
   </head>
   <body>
@@ -16,7 +16,7 @@
           alt="previous btn"
           class="arrows"
         />
-        <h1>mitsubishi Landing</h1>
+        <h1>mitsubishi motors</h1>
         <img
           src="Assets/Images/Next Button.png"
           alt="next btn"
@@ -37,76 +37,373 @@
     </div>
     <div class="nav-bar">
       <div class="logo">
-        <img src="Assets/Images/Simba Logo.png" alt="simba logo" id="simbalogo"> 
+        <img
+          src="Assets/Images/Simba Logo.png"
+          alt="simba logo"
+          id="simbalogo"
+        />
       </div>
-      <div class="nav" id="home">
-      </div> 
-        <a href="#">home</a>
-      
-      <div class="nav" id="vehicles">
-      </div>
-        <a href="#">Our vehicles</a>
-      <div class="nav" id="parts">
-      </div>  <a href="#">Parts</a>
-      <div class="nav" id="services">
-      </div>  <a href="#">Services</a>
-      <div class="nav" id="financing">
-      </div>  <a href="#">Financing</a>
-      <div class="nav" id="blog">
-      </div>  <a href="#">Blog</a>
-      
+      <div class="nav" id="home"></div>
+      <a href="#">home</a>
+
+      <div class="nav" id="vehicles"></div>
+      <a href="#">Our vehicles</a>
+      <div class="nav" id="parts"></div>
+      <a href="#">Parts</a>
+      <div class="nav" id="services"></div>
+      <a href="#">Services</a>
+      <div class="nav" id="financing"></div>
+      <a href="#">Financing</a>
+      <div class="nav" id="blog"></div>
+      <a href="#">Blog</a>
     </div>
     <div class="container2">
       <div class="form">
         <div class="upper-form">
           <div class="make">
-            <label for="make">Select make</label>
-            <select name="make" id="make"><option value="make">Make</option></select>
+            <label for="make">Select make</label><br />
+            <select name="make" id="make">
+              <option value="make">Make</option>
+            </select>
           </div>
           <div class="model">
-          <label for="model">Select model</label>
-          <select name="model" id="model"><option value="model">Model</option></select>
-        </div>
-        <div class="status">
-          <label for="status">Select status</label>
-          <select name="status" id="status"><option value="status">Status</option></select>
-        </div>
-        <div class="colour">
-          <label for="colour">Select colour</label>
-          <select name="colour" id="colour"><option value="colour">Colour</option></select>
-        </div>
-        <div class="budget">
-          <label for="budget">Enter Budget</label>
-          <div class="slider">
-            <div class="rec1"></div>
-            <div class="circle"></div>
-            <div class="rec2"></div>
+            <label for="model">Select model</label><br />
+            <select name="model" id="model">
+              <option value="model">Model</option>
+            </select>
           </div>
-          <p>Ksh 15,000,000</p>
-        </div>
+          <div class="status">
+            <label for="status">Select status</label><br />
+            <select name="status" id="status">
+              <option value="status">Status</option>
+            </select>
+          </div>
+          <div class="colour">
+            <label for="colour">Select colour</label><br />
+            <select name="colour" id="colour">
+              <option value="colour">Colour</option>
+            </select>
+          </div>
+          <div class="budget">
+            <label for="budget">Enter Budget</label>
+            <div class="slider">
+              <div class="rec1"></div>
+              <div class="circle"></div>
+              <div class="rec2"></div>
+            </div>
+            <p>Ksh 15,000,000</p>
+          </div>
         </div>
 
         <div class="lower-form">
           <div class="year">
-            <label for="year">Select Year</label>
-            <select name="year" id="year"><option value="year">Year</option></select>
+            <label for="year">Select Year</label><br />
+            <select name="year" id="year">
+              <option value="year">Year</option>
+            </select>
           </div>
           <div class="body">
-          <label for="body">Select body style</label>
-          <select name="body" id="body"><option value="body">Style</option></select>
-        </div>
-        <div class="enginetype">
-          <label for="enginetype">Select Engine Type</label>
-          <select name="enginetype" id="enginetype"><option value="enginetype">Engine Type</option></select>
-        </div>
-        <div class="fuel">
-          <label for="fuel">Fuel type</label>
-          <select name="fuel" id="fuel"><option value="fuel">Type</option></select>
-        </div>
+            <label for="body">Select body style</label><br />
+            <select name="body" id="body">
+              <option value="body">Style</option>
+            </select>
+          </div>
+          <div class="enginetype">
+            <label for="enginetype">Select Engine Type</label><br />
+            <select name="enginetype" id="enginetype">
+              <option value="enginetype">Engine Type</option>
+            </select>
+          </div>
+          <div class="fuel">
+            <label for="fuel">Fuel type</label><br />
+            <select name="fuel" id="fuel">
+              <option value="fuel">Type</option>
+            </select>
+          </div>
           <div class="search">Quick Search</div>
-      
-
-
+        </div>
+      </div>
+      <div class="models-titles">
+        <div class="saloon">
+          <p>Saloon Cars</p>
+          <div class="saloon-underline">
+            <div class="saloon-line"></div>
+            <div class="saloon-invertedSq">
+              <div class="saloon-outerSq">
+                <div class="saloon-innerSq"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modelTitle">
+          <p>Medium SUVs</p>
+          <div class="underline">
+            <div class="line"></div>
+            <div class="invertedSq">
+              <div class="outerSq">
+                <div class="innerSq"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modelTitle">
+          <p>Large SUVs</p>
+          <div class="underline">
+            <div class="line"></div>
+            <div class="invertedSq">
+              <div class="outerSq">
+                <div class="innerSq"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modelTitle">
+          <p>Used Vehicles</p>
+          <div class="underline">
+            <div class="line"></div>
+            <div class="invertedSq">
+              <div class="outerSq">
+                <div class="innerSq"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="large-container1">
+        <div class="col">
+          <div class="row">
+            <div class="bkgWhite">
+              <img src="Assets/Images/car 1.png" alt="car 1" class="cars" />
+            </div>
+            <div class="bkgBlack">
+              <div class="text">
+                <span>Preview Vehicle</span>
+                <div class="line-span"></div>
+                <h4>Mitsubishi Mirage G4 2021</h4>
+                <div class="line-span2"></div>
+                <p>
+                  Nulla facilisi. Praesent porttitor risus <br />
+                  a rutrum consequat. Suspendisse potenti. <br />
+                  Curabitur luctus augue sed tristique mattis. <br />
+                  Nam lacus quam, malesuada id pulvinar <br />
+                  volutpat elementum lectus. Nullam non . <br />
+                  Praesent posuere sagittis mauris id sollicit <br />
+                  udin. Donec libero enim, sagittis eget aliquam.
+                </p>
+                <div class="line-span3"></div>
+                <h2>Ksh 2,500,000</h2>
+              </div>
+              <button class="btn">Get Quote</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bkgWhite">
+              <img src="Assets/Images/car 2.png" alt="car 1" class="cars" />
+            </div>
+            <div class="bkgBlack">
+              <div class="text">
+                <span>Preview Vehicle</span>
+                <div class="line-span"></div>
+                <h4>Mitsubishi Mirage G4 2021</h4>
+                <div class="line-span2"></div>
+                <p>
+                  Nulla facilisi. Praesent porttitor risus <br />
+                  a rutrum consequat. Suspendisse potenti. <br />
+                  Curabitur luctus augue sed tristique mattis. <br />
+                  Nam lacus quam, malesuada id pulvinar <br />
+                  volutpat elementum lectus. Nullam non . <br />
+                  Praesent posuere sagittis mauris id sollicit <br />
+                  udin. Donec libero enim, sagittis eget aliquam.
+                </p>
+                <div class="line-span3"></div>
+                <h2>Ksh 2,500,000</h2>
+              </div>
+              <button class="btn">Get Quote</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bkgWhite">
+              <img src="Assets/Images/Car 3.png" alt="car 1" class="cars" />
+            </div>
+            <div class="bkgBlack">
+              <div class="text">
+                <span>Preview Vehicle</span>
+                <div class="line-span"></div>
+                <h4>Mitsubishi Mirage G4 2021</h4>
+                <div class="line-span2"></div>
+                <p>
+                  Nulla facilisi. Praesent porttitor risus <br />
+                  a rutrum consequat. Suspendisse potenti. <br />
+                  Curabitur luctus augue sed tristique mattis. <br />
+                  Nam lacus quam, malesuada id pulvinar <br />
+                  volutpat elementum lectus. Nullam non . <br />
+                  Praesent posuere sagittis mauris id sollicit <br />
+                  udin. Donec libero enim, sagittis eget aliquam.
+                </p>
+                <div class="line-span3"></div>
+                <h2>Ksh 2,500,000</h2>
+              </div>
+              <button class="btn">Get Quote</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="bkgWhite">
+              <img src="Assets/Images/car 1.png" alt="car 1" class="cars" />
+            </div>
+            <div class="bkgBlack">
+              <div class="text">
+                <span>Preview Vehicle</span>
+                <div class="line-span"></div>
+                <h4>Mitsubishi Mirage G4 2021</h4>
+                <div class="line-span2"></div>
+                <p>
+                  Nulla facilisi. Praesent porttitor risus <br />
+                  a rutrum consequat. Suspendisse potenti. <br />
+                  Curabitur luctus augue sed tristique mattis. <br />
+                  Nam lacus quam, malesuada id pulvinar <br />
+                  volutpat elementum lectus. Nullam non . <br />
+                  Praesent posuere sagittis mauris id sollicit <br />
+                  udin. Donec libero enim, sagittis eget aliquam.
+                </p>
+                <div class="line-span3"></div>
+                <h2>Ksh 2,500,000</h2>
+              </div>
+              <button class="btn">Get Quote</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bkgWhite">
+              <img src="Assets/Images/car 2.png" alt="car 1" class="cars" />
+            </div>
+            <div class="bkgBlack">
+              <div class="text">
+                <span>Preview Vehicle</span>
+                <div class="line-span"></div>
+                <h4>Mitsubishi Mirage G4 2021</h4>
+                <div class="line-span2"></div>
+                <p>
+                  Nulla facilisi. Praesent porttitor risus <br />
+                  a rutrum consequat. Suspendisse potenti. <br />
+                  Curabitur luctus augue sed tristique mattis. <br />
+                  Nam lacus quam, malesuada id pulvinar <br />
+                  volutpat elementum lectus. Nullam non . <br />
+                  Praesent posuere sagittis mauris id sollicit <br />
+                  udin. Donec libero enim, sagittis eget aliquam.
+                </p>
+                <div class="line-span3"></div>
+                <h2>Ksh 2,500,000</h2>
+              </div>
+              <button class="btn">Get Quote</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bkgWhite">
+              <img src="Assets/Images/Car 3.png" alt="car 1" class="cars" />
+            </div>
+            <div class="bkgBlack">
+              <div class="text">
+                <span>Preview Vehicle</span>
+                <div class="line-span"></div>
+                <h4>Mitsubishi Mirage G4 2021</h4>
+                <div class="line-span2"></div>
+                <p>
+                  Nulla facilisi. Praesent porttitor risus <br />
+                  a rutrum consequat. Suspendisse potenti. <br />
+                  Curabitur luctus augue sed tristique mattis. <br />
+                  Nam lacus quam, malesuada id pulvinar <br />
+                  volutpat elementum lectus. Nullam non . <br />
+                  Praesent posuere sagittis mauris id sollicit <br />
+                  udin. Donec libero enim, sagittis eget aliquam.
+                </p>
+                <div class="line-span3"></div>
+                <h2>Ksh 2,500,000</h2>
+              </div>
+              <button class="btn">Get Quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="advert">
+        <img src="Assets/Images/Advert Banner.png" alt="advert" id="advert" />
+      </div>
+    </div>
+    <div class="footer">
+      <div class="part1">
+        <img
+          src="Assets/Images/Simba Logo.png"
+          alt="simbalogo"
+          id="simbalogo"
+        />
+        <p>
+          Nulla facilisi. Praesent porttitor risus <br />
+          a rutrum consequat. Suspendisse potenti. <br />
+          Curabitur luctus augue sed tristique mattis. <br />
+          Nam lacus quam, malesuada id pulvinar <br />
+          volutpat elementum lectus. Nullam non . <br />
+          udin. Donec libero enim, sagittis eget aliquam.
+        </p>
+      </div>
+      <div class="part2">
+        <div class="contactus">
+          <div class="lineVert"></div>
+          <div class="textfooter">
+            <span>Contact Us</span>
+            <div class="pno">
+              <h4>phone number</h4>
+              <p>(+254) 703 046 000</p>
+            </div>
+            <div class="emai">
+              <h4>email address</h4>
+              <p>Simbacares@simbacorp.com</p>
+            </div>
+            <div class="loc">
+              <h4>our location</h4>
+              <p>
+                Mombasa Road, Opp.Panari <br />
+                Hotel, Nairobi
+              </p>
+            </div>
+            <div class="hrs">
+              <h4>working hours</h4>
+              <p>Mon-Sat 8:00 am -5:00 pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="customerServ">
+          <div class="lineVert"></div>
+          <div class="textfooter2">
+            <span>Customer Services</span>
+            <ul>
+              <li><a href="#">Fit it For Me</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Store Locator</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#">Returns & Refunds</a></li>
+              <li><a href="#">Product Recall</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="paymentMeth">
+          <div class="lineVert"></div>
+          <div class="textfooter3">
+            <span>Payment Method</span>
+            <ul>
+              <li><a href="#">Fit it For Me</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Store Locator</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#">Returns & Refunds</a></li>
+              <li><a href="#">Product Recall</a></li>
+            </ul>
+          </div>
+        </div>
+        <img
+          src="Assets/Images/Footer Deco.png"
+          alt="footer deco"
+          id="footerDeco"
+        />
       </div>
     </div>
   </body>
