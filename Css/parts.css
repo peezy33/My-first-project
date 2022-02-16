@@ -578,3 +578,62 @@ select {
   margin-left: 18vw;
   z-index: -1;
 }
+
+.container-basement {
+  display: flex;
+}
+
+.col-1 {
+  padding-left: 5%;
+}
+
+.row-1 {
+  height: 30vh;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.basepics {
+  width: 15vw;
+}
+
+.textbase {
+  font-size: 10px;
+}
+
+.rowspan {
+  display: flex;
+  align-items: center;
+  margin-top: 3vh;
+  justify-content: space-between;
+}
+
+.rowspan span {
+  margin-left: 0.7vw;
+}
+
+.rowspan h5 {
+  margin-left: 1vw;
+}
+
+.twenty {
+  display: flex;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border-radius: 1px;
+}
+
+.linespan {
+  height: 2px;
+  width: 30vw;
+  background-color: #918c8c;
+}
+
+.linevertical {
+  height: 80vh;
+  width: 2px;
+  background-color: #918c8c;
+  margin-left: 3vw;
+}
