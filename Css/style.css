@@ -194,7 +194,7 @@ a {
 
 .container2 {
   position: relative;
-  height: max-content;
+  height: 350vh;
   padding: 5%;
   background: linear-gradient(to bottom, black, rgb(29, 28, 28));
 }
@@ -382,7 +382,7 @@ select {
 }
 
 .large-container1 {
-  height: max-content;
+  height: 250vh;
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
@@ -501,7 +501,7 @@ select {
   position: absolute;
   width: 100%;
   left: 0;
-  top: 327vh;
+  top: 350vh;
   background: linear-gradient(to right, rgb(211, 14, 14), black);
 }
 
