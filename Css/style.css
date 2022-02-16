@@ -375,3 +375,118 @@ select {
   width: 10px;
   background-color: #f1f1f1;
 }
+
+.large-container1 {
+  height: 250vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  height: 120vh;
+  border: 1px solid #3f3c3c;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.bkgWhite {
+  height: 45vh;
+  width: 27vw;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  overflow: hidden;
+}
+
+.cars {
+  width: 23vw;
+  height: auto;
+}
+
+.bkgBlack {
+  height: 75vh;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text span {
+  font-size: 18px;
+  color: red;
+  font-weight: 400;
+}
+
+.line-span {
+  height: 1px;
+  width: auto;
+  background-color: #3f3c3c;
+  margin-top: 2vh;
+}
+
+.text h4 {
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 2vh;
+}
+
+.line-span2 {
+  height: 1px;
+  width: auto;
+  background-color: #3f3c3c;
+  margin-top: 2vh;
+}
+
+.text p {
+  font-size: 14px;
+  color: #f1f1f1;
+  font-weight: lighter;
+  margin: 2.5vh 0;
+}
+
+.line-span3 {
+  height: 1px;
+  width: auto;
+  background-color: #3f3c3c;
+  margin-top: 2vh;
+}
+
+.text h2 {
+  color: red;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.btn {
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  border: 3px solid #f1f1f1;
+  background-color: black;
+  color: #f1f1f1;
+  margin-top: 5vh;
+}
