@@ -69,7 +69,6 @@
   border-radius: 0.8rem 0.8rem;
 }
 
-
 .nav-bar {
   height: 120px;
   background-color: rgb(39, 35, 35);
@@ -78,8 +77,8 @@
   align-items: center;
   border-bottom: 2px solid red;
   padding-right: 4.5%;
+  padding-left: 4.5%;
 }
-
 
 #simbalogo {
   height: 85px;
@@ -88,25 +87,20 @@
 
 a {
   text-decoration: none;
-  color: #f1f1f1; 
+  color: #f1f1f1;
   z-index: 99;
-}
-
-.nav {
-  display: none;
 }
 
 #home {
   background-color: rgb(39, 35, 35);
-  height: 120px;
+  height: 118px;
   width: 95px;
   transform: skewX(-15deg);
   text-align: center;
   display: flex;
   justify-content: center;
   position: relative;
-  left: 80px;  
- 
+  left: 80px;
 }
 
 #home:hover {
@@ -115,15 +109,14 @@ a {
 
 #vehicles {
   background-color: rgb(39, 35, 35);
-  height: 120px;
+  height: 118px;
   width: 120px;
   transform: skewX(-15deg);
   text-align: center;
   display: flex;
   justify-content: center;
   position: relative;
-  left: 120px;  
- 
+  left: 120px;
 }
 
 #vehicles:hover {
@@ -132,15 +125,14 @@ a {
 
 #parts {
   background-color: rgb(39, 35, 35);
-  height: 120px;
+  height: 118px;
   width: 100px;
   transform: skewX(-15deg);
   text-align: center;
   display: flex;
   justify-content: center;
   position: relative;
-  left: 80px;  
- 
+  left: 80px;
 }
 
 #parts:hover {
@@ -149,15 +141,14 @@ a {
 
 #services {
   background-color: rgb(39, 35, 35);
-  height: 120px;
+  height: 118px;
   width: 100px;
   transform: skewX(-15deg);
   text-align: center;
   display: flex;
   justify-content: center;
   position: relative;
-  left: 93px;  
- 
+  left: 93px;
 }
 
 #services:hover {
@@ -166,58 +157,137 @@ a {
 
 #financing {
   background-color: rgb(39, 35, 35);
-  height: 120px;
+  height: 118px;
   width: 105px;
   transform: skewX(-15deg);
   text-align: center;
   display: flex;
   justify-content: center;
   position: relative;
-  left: 100px;  
+  left: 100px;
 }
- 
+
 #financing:hover {
   background-color: red;
 }
 
 #blog {
   background-color: rgb(39, 35, 35);
-  height: 120px;
+  height: 118px;
   width: 90px;
   transform: skewX(-15deg);
   text-align: center;
   display: flex;
   justify-content: center;
   position: relative;
-  left: 75px;  
- 
+  left: 75px;
 }
 
 #blog:hover {
   background-color: red;
 }
 
-
 .container2 {
   height: 350vh;
   padding: 5%;
-  background:linear-gradient(to bottom, black, rgb(29, 28, 28))
+  background: linear-gradient(to bottom, black, rgb(29, 28, 28));
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  width: 80vw;
-
+  width: auto;
+  height: 40vh;
+  background-color: rgb(209, 209, 199);
+  border-radius: 2rem;
+  justify-content: space-evenly;
+  padding: 0 5%;
 }
 
 .upper-form {
   display: flex;
-
+  justify-content: space-between;
+  font-size: small;
 }
 
 .lower-form {
   display: flex;
-  
+  justify-content: space-between;
+  font-size: small;
+}
 
+select {
+  width: 13vw;
+  height: 5vh;
+  font-size: small;
+  border-radius: 5vh 5vh;
+  border: none;
+  background-color: #f1f1f1;
+  padding-left: 1.5vw;
+}
+
+#model {
+  border-radius: 0.2rem 0.2rem;
+  background-color: rgba(63, 62, 63, 0.295);
+}
+
+.budget {
+  display: flex;
+  flex-direction: column;
+}
+
+.budget label {
+  font-size: small;
+}
+
+.budget p {
+  font-size: small;
+  text-align: right;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 2vh;
+}
+
+.rec1 {
+  height: 0.8rem;
+  width: 8vw;
+  background-color: red;
+  border-bottom-left-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+}
+
+.circle {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
+  background-color: #f1f1f1;
+  position: absolute;
+  margin-left: 7.5vw;
+}
+
+.rec2 {
+  height: 0.8rem;
+  width: 5vw;
+  background-color: rgb(53, 53, 53);
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+}
+
+.search {
+  width: 13vw;
+  height: 5vh;
+  font-size: small;
+  border-radius: 5vh 5vh;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: #f1f1f1;
+  align-self: center;
+  margin-top: 2.5vh;
 }
