@@ -148,7 +148,7 @@ select {
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  color: #444040;
+  color: #6e6e6e;
 }
 
 .productTitles h5 {
@@ -163,8 +163,8 @@ select {
 }
 
 .line {
-  background-color: #918c8c;
-  height: 2px;
+  background-color: #6e6e6e;
+  height: 1px;
   width: auto;
   margin-top: 3vh;
   display: flex;
@@ -172,7 +172,7 @@ select {
 
 .focusline {
   display: flex;
-  height: 2px;
+  height: 1px;
   background-color: red;
   width: 8vw;
   margin-left: 82vw;
@@ -200,7 +200,7 @@ select {
 
 .row p {
   font-size: 10px;
-  color: #918c8c;
+  color: #6e6e6e;
 }
 
 .row h6 {
@@ -267,7 +267,7 @@ select {
 
 .line2 {
   background-color: #f00a0a;
-  height: 2px;
+  height: 1px;
   width: 81vw;
   display: flex;
   z-index: 99;
@@ -337,7 +337,7 @@ select {
 }
 
 .advert {
-  background: linear-gradient(to right, rgb(180, 13, 13), rgb(85, 83, 83));
+  background: linear-gradient(to right, #f32028, rgb(85, 83, 83));
   height: 45vh;
   position: relative;
 }
@@ -358,7 +358,7 @@ select {
 }
 
 .containerfluid3 h1 {
-  color: #4e4d4d;
+  color: #6e6e6e;
   font-weight: 200;
   font-size: 24px;
 
@@ -453,6 +453,7 @@ select {
 }
 
 .displayquote {
+  width: 70vw;
   display: flex;
   margin-top: 10vh;
   background-color: #ffffff;
@@ -472,12 +473,12 @@ select {
   color: black;
   padding-top: 10vh;
   align-items: flex-start;
-  margin-left: 15vw;
+  margin-left: 5vw;
 }
 
 .partiker h5 {
   text-transform: uppercase;
-  color: #4e4d4d;
+  color: #6e6e6e;
 }
 
 .partiker h4 {
@@ -490,13 +491,13 @@ select {
 }
 
 .partiker p span:nth-child(1) {
-  color: #4e4d4d;
+  color: #6e6e6e;
   text-decoration: line-through;
   font-size: 12px;
 }
 
 .partiker p span:nth-child(2) {
-  color: #918c8c;
+  color: #6e6e6e;
 }
 
 .time {
@@ -538,14 +539,14 @@ select {
 
 .num p:nth-child(2) {
   margin-top: -0.5vh;
-  color: #918c8c;
+  color: #6e6e6e;
   font-size: 13px;
 }
 
 .num p:nth-child(2) span:nth-child(1) {
   text-decoration: none;
   margin: 4px;
-  color: #918c8c;
+  color: #6e6e6e;
 }
 .num p:nth-child(2) span:nth-child(2) {
   text-decoration: none;
@@ -564,11 +565,18 @@ select {
 }
 
 .containerfluid5 {
-  height: 100vh;
+  height: 115vh;
   width: 100vw;
   background-color: rgba(92, 2, 2, 0.886);
-  margin-top: 60vh;
+  margin-top: 50vh;
   position: relative;
+  padding: 5%;
+}
+
+.containerfluid5 h1 {
+  color: #f1f1f1;
+  font-weight: 200;
+  font-size: 24px;
 }
 
 #mirror3 {
@@ -581,26 +589,31 @@ select {
 
 .container-basement {
   display: flex;
-}
-
-.col-1 {
-  padding-left: 5%;
+  height: 80vh;
+  justify-content: space-between;
+  padding: 0 2.3vw;
 }
 
 .row-1 {
   height: 30vh;
-  width: 30vw;
+  width: 25vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .basepics {
-  width: 15vw;
+  width: 12vw;
+  border-radius: 3px;
 }
 
 .textbase {
   font-size: 10px;
+  margin-left: 1vw;
+}
+
+.textbase h4 {
+  color: #f1f1f1;
 }
 
 .rowspan {
@@ -612,10 +625,13 @@ select {
 
 .rowspan span {
   margin-left: 0.7vw;
+  color: #f00a0a;
 }
 
 .rowspan h5 {
   margin-left: 1vw;
+  color: #6e6e6e;
+  text-decoration: line-through;
 }
 
 .twenty {
@@ -626,14 +642,94 @@ select {
 }
 
 .linespan {
-  height: 2px;
-  width: 30vw;
-  background-color: #918c8c;
+  height: 1px;
+  width: 25vw;
+  background-color: #6e6e6e;
 }
 
 .linevertical {
+  margin-top: 7vh;
   height: 80vh;
-  width: 2px;
-  background-color: #918c8c;
-  margin-left: 3vw;
+  width: 1px;
+  background-color: #6e6e6e;
+  margin-left: 1vw;
+}
+
+.footer {
+  height: 80vh;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  display: flex;
+  padding: 0 7vw;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 15vh;
+}
+
+#bkgfooter {
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+}
+
+.textfooter span,
+.textfooter2 span,
+.textfooter3 span {
+  color: #f1f1f1;
+}
+
+.textfooter h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  margin-top: 2vh;
+}
+
+.textfooter p {
+  color: #f1f1f1;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.textfooter2 ul,
+.textfooter3 ul {
+  list-style: none;
+}
+
+.textfooter2 ul li a,
+.textfooter3 ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: lighter;
+  color: #f1f1f1;
+}
+
+.textfooter2 ul li,
+.textfooter3 ul li {
+  margin-top: 2.5vh;
+}
+
+.contactus,
+.customerServ,
+.paymentMeth {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-right: 1vw;
+}
+
+.socials {
+  margin-top: 2rem;
+}
+
+.copyright {
+  height: 80px;
+  width: 100vw;
+  background-color: #f32028;
+  bottom: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #f1f1f1;
 }
